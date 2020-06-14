@@ -11,8 +11,38 @@ void display() {
 
 	glColor3f(1.0, 1.0, 1.0);
 	glBegin(GL_LINES);
-	glVertex2d(10.0, 30.0);
-	glVertex2d(10.0, 450.0);
+	glVertex2d(50.0, 450.0);
+	glVertex2d(50.0, 400.0);
+	glVertex2d(50.0, 400.0);
+	glVertex2d(80.0, 400.0);
+	glVertex2d(80.0, 400.0);
+	glVertex2d(80.0, 350.0);
+	glVertex2d(80.0, 350.0);
+	glVertex2d(50.0, 350.0);
+	glVertex2d(50.0, 350.0);
+	glVertex2d(50.0, 300.0);
+	glVertex2d(50.0, 300.0);
+	glVertex2d(80.0, 300.0);
+	glVertex2d(80.0, 300.0);
+	glVertex2d(80.0, 250.0);
+	glVertex2d(80.0, 250.0);
+	glVertex2d(50.0, 250.0);
+	glVertex2d(50.0, 250.0);
+	glVertex2d(50.0, 200.0);
+	glVertex2d(50.0, 200.0);
+	glVertex2d(80.0, 200.0);
+	glVertex2d(80.0, 200.0);
+	glVertex2d(80.0, 150.0);
+	glVertex2d(80.0, 150.0);
+	glVertex2d(50.0, 150.0);
+	glVertex2d(50.0, 150.0);
+	glVertex2d(50.0, 100.0);
+	glVertex2d(50.0, 100.0);
+	glVertex2d(80.0, 100.0);
+	glVertex2d(80.0, 100.0);
+	glVertex2d(80.0, 50.0);
+	glVertex2d(80.0, 50.0);
+	glVertex2d(50.0, 50.0);
 	glEnd();
 
 
