@@ -12,7 +12,7 @@ void display() {
 	glColor3f(1.0, 1.0, 1.0);
 	glBegin(GL_LINES);
 	glVertex2d(10.0, 30.0);
-	glVertex2d(10.0, 610.0);
+	glVertex2d(10.0, 450.0);
 	glEnd();
 
 
@@ -33,7 +33,7 @@ int main(int argc, char** argv) {
 	glClearColor(0.0, 0.0, 0.0, 0.0);
 	glClear(GL_COLOR_BUFFER_BIT);
 	glPointSize(10);
-	glLineWidth(5.0f);
+	glLineWidth(2);
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity(); // dihitung dengan matrix identitas
 	gluOrtho2D(0.0, 640.0, 0.0, 480.0); // untuk memberikan sistem koordinat kepada windows yang kita buat
