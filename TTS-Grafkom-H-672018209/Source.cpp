@@ -201,6 +201,101 @@ void display() {
 	glVertex2d(640.0, 0.0);
 	glEnd();
 
+	//---------------------------------
+
+	glColor3f(1.0, 1.0, 1.0); //garis horisontal 0
+	glBegin(GL_LINES);
+	glVertex2d(0.0, 425.0);
+	glVertex2d(50.0, 425.0);
+	glVertex2d(160.0, 425.0);
+	glVertex2d(210.0, 425.0);
+	glVertex2d(320.0, 425.0);
+	glVertex2d(370.0, 425.0);
+	glVertex2d(480.0, 425.0);
+	glVertex2d(530.0, 425.0);
+
+	glBegin(GL_LINES);
+	glVertex2d(80.0, 375.0);   //1
+	glVertex2d(130.0, 375.0);
+	glVertex2d(240.0, 375.0);
+	glVertex2d(290.0, 375.0);
+	glVertex2d(400.0, 375.0);
+	glVertex2d(450.0, 375.0);
+	glVertex2d(560.0, 375.0);
+	glVertex2d(610.0, 375.0);
+
+	glVertex2d(0.0, 325.0);   //2
+	glVertex2d(50.0, 325.0);
+	glVertex2d(160.0, 325.0);
+	glVertex2d(210.0, 325.0);
+	glVertex2d(320.0, 325.0);
+	glVertex2d(370.0, 325.0);
+	glVertex2d(480.0, 325.0);
+	glVertex2d(530.0, 325.0);
+
+	glColor3f(1.0, 1.0, 1.0); //3
+	glBegin(GL_LINES);
+	glVertex2d(80.0, 275.0);
+	glVertex2d(130.0, 275.0);
+	glVertex2d(240.0, 275.0);
+	glVertex2d(290.0, 275.0);
+	glVertex2d(400.0, 275.0);
+	glVertex2d(450.0, 275.0);
+	glVertex2d(560.0, 275.0);
+	glVertex2d(610.0, 275.0);
+
+	glVertex2d(0.0, 225.0);   //4
+	glVertex2d(50.0, 225.0);
+	glVertex2d(160.0, 225.0);
+	glVertex2d(210.0, 225.0);
+	glVertex2d(320.0, 225.0);
+	glVertex2d(370.0, 225.0);
+	glVertex2d(480.0, 225.0);
+	glVertex2d(530.0, 225.0);
+
+	glColor3f(1.0, 1.0, 1.0); //5
+	glBegin(GL_LINES);
+	glVertex2d(80.0, 175.0);
+	glVertex2d(130.0, 175.0);
+	glVertex2d(240.0, 175.0);
+	glVertex2d(290.0, 175.0);
+	glVertex2d(400.0, 175.0);
+	glVertex2d(450.0, 175.0);
+	glVertex2d(560.0, 175.0);
+	glVertex2d(610.0, 175.0);
+
+	glVertex2d(0.0, 125.0);   //6
+	glVertex2d(50.0, 125.0);
+	glVertex2d(160.0, 125.0);
+	glVertex2d(210.0, 125.0);
+	glVertex2d(320.0, 125.0);
+	glVertex2d(370.0, 125.0);
+	glVertex2d(480.0, 125.0);
+	glVertex2d(530.0, 125.0);
+
+	glColor3f(1.0, 1.0, 1.0); //7
+	glBegin(GL_LINES);
+	glVertex2d(80.0, 75.0);
+	glVertex2d(130.0, 75.0);
+	glVertex2d(240.0, 75.0);
+	glVertex2d(290.0, 75.0);
+	glVertex2d(400.0, 75.0);
+	glVertex2d(450.0, 75.0);
+	glVertex2d(560.0, 75.0);
+	glVertex2d(610.0, 75.0);
+
+	glEnd();
+
+	//--------------------------------------
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_QUAD_STRIP);
+	glVertex2d(55.0, 420.0);
+	glVertex2d(65.0, 420.0);
+	glVertex2d(65.0, 400.0);
+	//glVertex2d(55.0, 420.0);
+	glEnd();
+
+
 	glColor3f(1.0, 1.0, 1.0);
 	glBegin(GL_POLYGON);
 	glVertex2d(0.0, 0.0);
