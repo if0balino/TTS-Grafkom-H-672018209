@@ -1969,7 +1969,7 @@ void display() {
 	glVertex2d(265.0, 124.0);
 	glEnd();
 
-	glColor3f(0.0, 0.0, 0.0); //bentuk berlian 4
+	glColor3f(0.0, 0.0, 0.0); //titik berlian 4
 	glBegin(GL_POINTS);
 	glVertex2d(345.0, 374.0);
 	glEnd();
@@ -1986,7 +1986,7 @@ void display() {
 	glVertex2d(345.0, 73.0);
 	glEnd();
 
-	glColor3f(0.0, 0.0, 0.0); //bentuk berlian 5
+	glColor3f(0.0, 0.0, 0.0); //titik berlian 5
 	glBegin(GL_POINTS);
 	glVertex2d(425.0, 426.0);
 	glEnd();
