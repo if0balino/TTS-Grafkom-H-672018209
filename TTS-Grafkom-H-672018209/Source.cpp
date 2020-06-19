@@ -1333,12 +1333,710 @@ void display() {
 	glVertex2d(550.0, 35.0);
 	glEnd();
 
-	//--------------------------------------------
+	//---------------------------------------------berlian
+
+	glColor3f(1.0, 1.0, 1.0); //bentuk berlian 0
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(25.0, 374.0);
+	glVertex2d(40.0, 374.0);
+	glVertex2d(25.0, 390.0);
+	glVertex2d(10.0, 374.0);
+	glVertex2d(25.0, 360.0);
+	glVertex2d(40.0, 374.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(40.0, 374.0);
+	glVertex2d(25.0, 390.0);
+	glVertex2d(10.0, 374.0);
+	glVertex2d(25.0, 360.0);
+	glVertex2d(40.0, 374.0);
+	glEnd();
 
 	glColor3f(1.0, 1.0, 1.0);
-	glBegin(GL_POINTS);
-	glVertex2d(25.0, 373.0);
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(25.0, 273.0);
+	glVertex2d(40.0, 273.0);
+	glVertex2d(25.0, 290.0);
+	glVertex2d(10.0, 274.0);
+	glVertex2d(25.0, 260.0);
+	glVertex2d(40.0, 274.0);
 	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(40.0, 273.0);
+	glVertex2d(25.0, 290.0);
+	glVertex2d(10.0, 274.0);
+	glVertex2d(25.0, 260.0);
+	glEnd();
+
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(25.0, 173.0);
+	glVertex2d(40.0, 173.0);
+	glVertex2d(25.0, 190.0);
+	glVertex2d(10.0, 174.0);
+	glVertex2d(25.0, 160.0);
+	glVertex2d(40.0, 174.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(40.0, 173.0);
+	glVertex2d(25.0, 190.0);
+	glVertex2d(10.0, 174.0);
+	glVertex2d(25.0, 160.0);
+	glEnd();
+
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(25.0, 73.0);
+	glVertex2d(40.0, 73.0);
+	glVertex2d(25.0, 90.0);
+	glVertex2d(10.0, 74.0);
+	glVertex2d(25.0, 60.0);
+	glVertex2d(40.0, 74.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(40.0, 73.0);
+	glVertex2d(25.0, 90.0);
+	glVertex2d(10.0, 74.0);
+	glVertex2d(25.0, 60.0);
+	glEnd();
+
+
+	glColor3f(1.0, 1.0, 1.0); //bentuk berlian 1
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(105.0, 426.0);
+	glVertex2d(120.0, 426.0);
+	glVertex2d(105.0, 441.0);
+	glVertex2d(90.0, 426.0);
+	glVertex2d(105.0, 411.0);
+	glVertex2d(120.0, 426.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(120.0, 426.0);
+	glVertex2d(105.0, 441.0);
+	glVertex2d(90.0, 426.0);
+	glVertex2d(105.0, 411.0);
+	glEnd();
+
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(105.0, 324.0);
+	glVertex2d(120.0, 324.0);
+	glVertex2d(105.0, 339.0);
+	glVertex2d(90.0, 324.0);
+	glVertex2d(105.0, 309.0);
+	glVertex2d(120.0, 324.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(120.0, 324.0);
+	glVertex2d(105.0, 339.0);
+	glVertex2d(90.0, 324.0);
+	glVertex2d(105.0, 309.0);
+	glEnd();
+
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(105.0, 224.0);
+	glVertex2d(120.0, 224.0);
+	glVertex2d(105.0, 239.0);
+	glVertex2d(90.0, 224.0);
+	glVertex2d(105.0, 209.0);
+	glVertex2d(120.0, 224.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(120.0, 224.0);
+	glVertex2d(105.0, 239.0);
+	glVertex2d(90.0, 224.0);
+	glVertex2d(105.0, 209.0);
+	glEnd();
+
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(105.0, 124.0);
+	glVertex2d(120.0, 124.0);
+	glVertex2d(105.0, 139.0);
+	glVertex2d(90.0, 124.0);
+	glVertex2d(105.0, 109.0);
+	glVertex2d(120.0, 124.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(120.0, 124.0);
+	glVertex2d(105.0, 139.0);
+	glVertex2d(90.0, 124.0);
+	glVertex2d(105.0, 109.0);
+	glEnd();
+
+
+	glColor3f(1.0, 1.0, 1.0); //bentuk berlian 2
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(185.0, 374.0);
+	glVertex2d(200.0, 374.0);
+	glVertex2d(185.0, 390.0);
+	glVertex2d(170.0, 374.0);
+	glVertex2d(185.0, 360.0);
+	glVertex2d(200.0, 374.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(200.0, 374.0);
+	glVertex2d(185.0, 390.0);
+	glVertex2d(170.0, 374.0);
+	glVertex2d(185.0, 360.0);
+	glVertex2d(200.0, 374.0);
+	glEnd();
+
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(185.0, 273.0);
+	glVertex2d(200.0, 274.0);
+	glVertex2d(185.0, 290.0);
+	glVertex2d(170.0, 274.0);
+	glVertex2d(185.0, 260.0);
+	glVertex2d(200.0, 274.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(200.0, 274.0);
+	glVertex2d(185.0, 290.0);
+	glVertex2d(170.0, 274.0);
+	glVertex2d(185.0, 260.0);
+	glVertex2d(200.0, 274.0);
+	glEnd();
+
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(185.0, 173.0);
+	glVertex2d(200.0, 174.0);
+	glVertex2d(185.0, 190.0);
+	glVertex2d(170.0, 174.0);
+	glVertex2d(185.0, 160.0);
+	glVertex2d(200.0, 174.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(200.0, 174.0);
+	glVertex2d(185.0, 190.0);
+	glVertex2d(170.0, 174.0);
+	glVertex2d(185.0, 160.0);
+	glVertex2d(200.0, 174.0);
+	glEnd();
+
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(185.0, 73.0);
+	glVertex2d(200.0, 74.0);
+	glVertex2d(185.0, 90.0);
+	glVertex2d(170.0, 74.0);
+	glVertex2d(185.0, 60.0);
+	glVertex2d(200.0, 74.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(200.0, 74.0);
+	glVertex2d(185.0, 90.0);
+	glVertex2d(170.0, 74.0);
+	glVertex2d(185.0, 60.0);
+	glVertex2d(200.0, 74.0);
+	glEnd();
+
+
+	glColor3f(1.0, 1.0, 1.0); //bentuk berlian 3
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(265.0, 426.0);
+	glVertex2d(280.0, 426.0);
+	glVertex2d(265.0, 441.0);
+	glVertex2d(250.0, 426.0);
+	glVertex2d(265.0, 411.0);
+	glVertex2d(280.0, 426.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(280.0, 426.0);
+	glVertex2d(265.0, 441.0);
+	glVertex2d(250.0, 426.0);
+	glVertex2d(265.0, 411.0);
+	glEnd();
+
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(265.0, 324.0);
+	glVertex2d(280.0, 324.0);
+	glVertex2d(265.0, 339.0);
+	glVertex2d(250.0, 324.0);
+	glVertex2d(265.0, 309.0);
+	glVertex2d(280.0, 324.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(280.0, 324.0);
+	glVertex2d(265.0, 339.0);
+	glVertex2d(250.0, 324.0);
+	glVertex2d(265.0, 309.0);
+	glEnd();
+
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(265.0, 224.0);
+	glVertex2d(280.0, 224.0);
+	glVertex2d(265.0, 239.0);
+	glVertex2d(250.0, 224.0);
+	glVertex2d(265.0, 209.0);
+	glVertex2d(280.0, 224.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(280.0, 224.0);
+	glVertex2d(265.0, 239.0);
+	glVertex2d(250.0, 224.0);
+	glVertex2d(265.0, 209.0);
+	glEnd();
+
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(265.0, 124.0);
+	glVertex2d(280.0, 124.0);
+	glVertex2d(265.0, 139.0);
+	glVertex2d(250.0, 124.0);
+	glVertex2d(265.0, 109.0);
+	glVertex2d(280.0, 124.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(280.0, 124.0);
+	glVertex2d(265.0, 139.0);
+	glVertex2d(250.0, 124.0);
+	glVertex2d(265.0, 109.0);
+	glEnd();
+
+
+	glColor3f(1.0, 1.0, 1.0); //bentuk berlian 4
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(345.0, 374.0);
+	glVertex2d(360.0, 374.0);
+	glVertex2d(345.0, 390.0);
+	glVertex2d(330.0, 374.0);
+	glVertex2d(345.0, 360.0);
+	glVertex2d(360.0, 374.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(360.0, 374.0);
+	glVertex2d(345.0, 390.0);
+	glVertex2d(330.0, 374.0);
+	glVertex2d(345.0, 360.0);
+	glVertex2d(360.0, 374.0);
+	glEnd();
+
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(345.0, 273.0);
+	glVertex2d(360.0, 274.0);
+	glVertex2d(345.0, 290.0);
+	glVertex2d(330.0, 274.0);
+	glVertex2d(345.0, 260.0);
+	glVertex2d(360.0, 274.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(360.0, 274.0);
+	glVertex2d(345.0, 290.0);
+	glVertex2d(330.0, 274.0);
+	glVertex2d(345.0, 260.0);
+	glVertex2d(360.0, 274.0);
+	glEnd();
+
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(345.0, 173.0);
+	glVertex2d(360.0, 174.0);
+	glVertex2d(345.0, 190.0);
+	glVertex2d(330.0, 174.0);
+	glVertex2d(345.0, 160.0);
+	glVertex2d(360.0, 174.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(360.0, 174.0);
+	glVertex2d(345.0, 190.0);
+	glVertex2d(330.0, 174.0);
+	glVertex2d(345.0, 160.0);
+	glVertex2d(360.0, 174.0);
+	glEnd();
+
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(345.0, 73.0);
+	glVertex2d(360.0, 74.0);
+	glVertex2d(345.0, 90.0);
+	glVertex2d(330.0, 74.0);
+	glVertex2d(345.0, 60.0);
+	glVertex2d(360.0, 74.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(360.0, 74.0);
+	glVertex2d(345.0, 90.0);
+	glVertex2d(330.0, 74.0);
+	glVertex2d(345.0, 60.0);
+	glVertex2d(360.0, 74.0);
+	glEnd();
+
+
+	glColor3f(1.0, 1.0, 1.0); //bentuk berlian 5
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(425.0, 426.0);
+	glVertex2d(440.0, 426.0);
+	glVertex2d(425.0, 441.0);
+	glVertex2d(410.0, 426.0);
+	glVertex2d(425.0, 411.0);
+	glVertex2d(440.0, 426.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(440.0, 426.0);
+	glVertex2d(425.0, 441.0);
+	glVertex2d(410.0, 426.0);
+	glVertex2d(425.0, 411.0);
+	glEnd();
+
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(425.0, 324.0);
+	glVertex2d(440.0, 324.0);
+	glVertex2d(425.0, 339.0);
+	glVertex2d(410.0, 324.0);
+	glVertex2d(425.0, 309.0);
+	glVertex2d(440.0, 324.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(440.0, 324.0);
+	glVertex2d(425.0, 339.0);
+	glVertex2d(410.0, 324.0);
+	glVertex2d(425.0, 309.0);
+	glEnd();
+
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(425.0, 224.0);
+	glVertex2d(440.0, 224.0);
+	glVertex2d(425.0, 239.0);
+	glVertex2d(410.0, 224.0);
+	glVertex2d(425.0, 209.0);
+	glVertex2d(440.0, 224.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(440.0, 224.0);
+	glVertex2d(425.0, 239.0);
+	glVertex2d(410.0, 224.0);
+	glVertex2d(425.0, 209.0);
+	glEnd();
+
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(425.0, 124.0);
+	glVertex2d(440.0, 124.0);
+	glVertex2d(425.0, 139.0);
+	glVertex2d(410.0, 124.0);
+	glVertex2d(425.0, 109.0);
+	glVertex2d(440.0, 124.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(440.0, 124.0);
+	glVertex2d(425.0, 139.0);
+	glVertex2d(410.0, 124.0);
+	glVertex2d(425.0, 109.0);
+	glEnd();
+
+
+	glColor3f(1.0, 1.0, 1.0); //bentuk berlian 6
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(505.0, 374.0);
+	glVertex2d(520.0, 374.0);
+	glVertex2d(505.0, 390.0);
+	glVertex2d(490.0, 374.0);
+	glVertex2d(505.0, 360.0);
+	glVertex2d(520.0, 374.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(520.0, 374.0);
+	glVertex2d(505.0, 390.0);
+	glVertex2d(490.0, 374.0);
+	glVertex2d(505.0, 360.0);
+	glVertex2d(520.0, 374.0);
+	glEnd();
+
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(505.0, 273.0);
+	glVertex2d(520.0, 274.0);
+	glVertex2d(505.0, 290.0);
+	glVertex2d(490.0, 274.0);
+	glVertex2d(505.0, 260.0);
+	glVertex2d(520.0, 274.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(520.0, 274.0);
+	glVertex2d(505.0, 290.0);
+	glVertex2d(490.0, 274.0);
+	glVertex2d(505.0, 260.0);
+	glVertex2d(520.0, 274.0);
+	glEnd();
+
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(505.0, 173.0);
+	glVertex2d(520.0, 174.0);
+	glVertex2d(505.0, 190.0);
+	glVertex2d(490.0, 174.0);
+	glVertex2d(505.0, 160.0);
+	glVertex2d(520.0, 174.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(520.0, 174.0);
+	glVertex2d(505.0, 190.0);
+	glVertex2d(490.0, 174.0);
+	glVertex2d(505.0, 160.0);
+	glVertex2d(520.0, 174.0);
+	glEnd();
+
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(505.0, 73.0);
+	glVertex2d(520.0, 74.0);
+	glVertex2d(505.0, 90.0);
+	glVertex2d(490.0, 74.0);
+	glVertex2d(505.0, 60.0);
+	glVertex2d(520.0, 74.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(520.0, 74.0);
+	glVertex2d(505.0, 90.0);
+	glVertex2d(490.0, 74.0);
+	glVertex2d(505.0, 60.0);
+	glVertex2d(520.0, 74.0);
+	glEnd();
+
+
+	glColor3f(1.0, 1.0, 1.0); //bentuk berlian 7
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(585.0, 426.0);
+	glVertex2d(600.0, 426.0);
+	glVertex2d(585.0, 441.0);
+	glVertex2d(570.0, 426.0);
+	glVertex2d(585.0, 411.0);
+	glVertex2d(600.0, 426.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(600.0, 426.0);
+	glVertex2d(585.0, 441.0);
+	glVertex2d(570.0, 426.0);
+	glVertex2d(585.0, 411.0);
+	glEnd();
+
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(585.0, 324.0);
+	glVertex2d(600.0, 324.0);
+	glVertex2d(585.0, 339.0);
+	glVertex2d(570.0, 324.0);
+	glVertex2d(585.0, 309.0);
+	glVertex2d(600.0, 324.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(600.0, 324.0);
+	glVertex2d(585.0, 339.0);
+	glVertex2d(570.0, 324.0);
+	glVertex2d(585.0, 309.0);
+	glEnd();
+
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(585.0, 224.0);
+	glVertex2d(600.0, 224.0);
+	glVertex2d(585.0, 239.0);
+	glVertex2d(570.0, 224.0);
+	glVertex2d(585.0, 209.0);
+	glVertex2d(600.0, 224.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(600.0, 224.0);
+	glVertex2d(585.0, 239.0);
+	glVertex2d(570.0, 224.0);
+	glVertex2d(585.0, 209.0);
+	glEnd();
+
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_TRIANGLE_FAN);
+	glVertex2d(585.0, 124.0);
+	glVertex2d(600.0, 124.0);
+	glVertex2d(585.0, 139.0);
+	glVertex2d(570.0, 124.0);
+	glVertex2d(585.0, 109.0);
+	glVertex2d(600.0, 124.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_LINE_LOOP);
+	glVertex2d(600.0, 124.0);
+	glVertex2d(585.0, 139.0);
+	glVertex2d(570.0, 124.0);
+	glVertex2d(585.0, 109.0);
+	glEnd();
+
+	//---------------------------------------titik hitam
+
+	glColor3f(0.0, 0.0, 0.0); //titik berlian 0
+	glBegin(GL_POINTS);
+	glVertex2d(25.0, 374.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_POINTS);
+	glVertex2d(25.0, 273.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_POINTS);
+	glVertex2d(25.0, 173.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_POINTS);
+	glVertex2d(25.0, 73.0);
+	glEnd();
+
+	glColor3f(0.0, 0.0, 0.0); //titik berlian 1
+	glBegin(GL_POINTS);
+	glVertex2d(105.0, 426.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_POINTS);
+	glVertex2d(105.0, 324.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_POINTS);
+	glVertex2d(105.0, 224.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_POINTS);
+	glVertex2d(105.0, 124.0);
+	glEnd();
+
+	glColor3f(0.0, 0.0, 0.0); //titik berlian 2
+	glBegin(GL_POINTS);
+	glVertex2d(185.0, 374.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_POINTS);
+	glVertex2d(185.0, 273.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_POINTS);
+	glVertex2d(185.0, 173.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_POINTS);
+	glVertex2d(185.0, 73.0);
+	glEnd();
+
+	glColor3f(0.0, 0.0, 0.0); //titik berlian 3
+	glBegin(GL_POINTS);
+	glVertex2d(265.0, 426.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_POINTS);
+	glVertex2d(265.0, 324.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_POINTS);
+	glVertex2d(265.0, 224.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_POINTS);
+	glVertex2d(265.0, 124.0);
+	glEnd();
+
+	glColor3f(0.0, 0.0, 0.0); //bentuk berlian 4
+	glBegin(GL_POINTS);
+	glVertex2d(345.0, 374.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_POINTS);
+	glVertex2d(345.0, 273.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_POINTS);
+	glVertex2d(345.0, 173.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_POINTS);
+	glVertex2d(345.0, 73.0);
+	glEnd();
+
+	glColor3f(0.0, 0.0, 0.0); //bentuk berlian 5
+	glBegin(GL_POINTS);
+	glVertex2d(425.0, 426.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_POINTS);
+	glVertex2d(425.0, 324.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_POINTS);
+	glVertex2d(425.0, 224.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_POINTS);
+	glVertex2d(425.0, 124.0);
+	glEnd();
+
+	glColor3f(0.0, 0.0, 0.0); //titik berlian 6
+	glBegin(GL_POINTS);
+	glVertex2d(505.0, 374.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_POINTS);
+	glVertex2d(505.0, 273.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_POINTS);
+	glVertex2d(505.0, 173.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_POINTS);
+	glVertex2d(505.0, 73.0);
+	glEnd();
+
+	glColor3f(0.0, 0.0, 0.0); //titik berlian 7
+	glBegin(GL_POINTS);
+	glVertex2d(585.0, 426.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_POINTS);
+	glVertex2d(585.0, 324.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_POINTS);
+	glVertex2d(585.0, 224.0);
+	glEnd();
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_POINTS);
+	glVertex2d(585.0, 124.0);
+	glEnd();
+
 
 	//-------------------------------------
 
@@ -1349,8 +2047,6 @@ void display() {
 	glVertex2d(640.0, 30.0);
 	glVertex2d(0.0, 30.0);
 	glEnd();
-
-
 
 
 	glFlush();
