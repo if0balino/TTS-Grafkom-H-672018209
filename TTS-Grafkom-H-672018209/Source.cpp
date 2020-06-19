@@ -1333,6 +1333,12 @@ void display() {
 	glVertex2d(550.0, 35.0);
 	glEnd();
 
+	//--------------------------------------------
+
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_POINTS);
+	glVertex2d(25.0, 373.0);
+	glEnd();
 
 	//-------------------------------------
 
@@ -1363,7 +1369,7 @@ int main(int argc, char** argv) {
 	//inisialisasi glut
 	glClearColor(0.0, 0.0, 0.0, 0.0);
 	glClear(GL_COLOR_BUFFER_BIT);
-	glPointSize(10);
+	glPointSize(5);
 	glLineWidth(3);
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity(); // dihitung dengan matrix identitas
